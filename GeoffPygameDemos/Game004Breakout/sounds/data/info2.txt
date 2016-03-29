@@ -1,0 +1,62 @@
+PyMP (Pygame's Music Player)
+by Takis Tsiberis
+http://takira.freehosting.net/
+takira_gr@yahoo.com
+^
+For the developer who wants to know
+if his music is playable on Pygame.
+^
+Copyright (C) 2006 Panagiotis Tsiberis
+This program is free software;
+you can redistribute it and/or
+modify it under the terms of the
+GNU General Public License
+as published by the
+Free Software Foundation;
+either version 2 of the License,
+or (at your option) any later version.
+^
+Plays .wav, .ogg, .mid, .xm and .cda files
+This version works under Windows XP
+^
+Started at 9/17/2006
+Stopped at 9/24/2006
+Restarted at 11/6/2006
+Finished at 1/3/2007
+HAPPY NEW YEAR !!!
+^
+The scroll bar was a real pain and the
+code is not what i expected. But it works,
+so here it is coming at u: "LowTech" style.
+Maybe the pygame gurus should consider
+writing an "MVC in a nutshell" tutorial.
+^
+Special thanks to my boss at work
+who really knows what's going on...
+^
+Tips and tricks
+- Marc-Andre Lemburg
+- Nicolas Favre-Felix
+- Piman
+^
+Still Life Icons
+Copyright © 2006 Julian Turner
+http://julianturner.uttx.net/stilllife.html
+^
+Software used
+- ms paint
+- irfan view
+- python
+- pygame
+^
+Music is
+God Rest Ye Merry Gentlemen
+by Randy Kelley
+RandyK1641@aol.com
+^
+Fonts are
+- MgOpen Cosmetica Bold Oblique
+- MgOpenCosmetica Regular
+Copyright © Magenta Ltd., 2004
+^
+end
