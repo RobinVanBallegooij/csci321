@@ -26,7 +26,12 @@ class ImageManager:
         # Build cursor image:
         width = 16
         surf = pygame.Surface((width,width))
-        r = surf.get_rect()
+        # It would be nice to convert here, but this class is
+        # initiated before pygame.init() is called, so we can't.
+        # Maybe this surface should be created elsewere, but I'm
+        # leaving it here for now.  It's just a demo of pygame's
+        # drawing commands, anyway.
+        # surf.convert()
         surf.fill((255,255,255))
         surf.set_colorkey((255,255,255))
         pygame.draw.line(surf,(0,0,0),(0,width/2),(width,width/2),1)
@@ -145,11 +150,12 @@ class Bear(pygame.sprite.Sprite):
         speed = randint(5,10)
         self.hspeed = speed * cos(angle)
         self.vspeed = speed * sin(angle)
-        self.rect = self.rect.move(randint(32,screensize[0]-32*2), randint(32,screensize[1]-32*2))
+        self.rect = self.rect.move(randint(32,screensize[0]-32*2),
+                                   randint(32,screensize[1]-32*2))
 
     def update(self):
         "move the bear based on speed and direction"
-        self.rect = self.rect.move(self.hspeed, self.vspeed)
+        self.rect.move_ip(self.hspeed, self.vspeed)
         self.frame = (self.aspeed+self.frame)
         while self.frame >= self.nframes:
             self.frame -= self.nframes
@@ -177,7 +183,7 @@ class Cursor(pygame.sprite.Sprite):
         
     def update(self):
         pos = pygame.mouse.get_pos()
-        self.rect.centerx,self.rect.centery = pos
+        self.rect.center = pos
 
 # Global Resource Managers
 Images = ImageManager()
@@ -274,7 +280,9 @@ def main():
             elif event.type == KEYDOWN and event.key == K_ESCAPE:
                 return
             elif event.type == MOUSEBUTTONDOWN:
-                for bear in pygame.sprite.spritecollide(cursor, Bear_sprites, 1):
+                for bear in pygame.sprite.spritecollide(cursor,
+                                                        Bear_sprites,
+                                                        1):
                     pass
                    
     #Update sprites
