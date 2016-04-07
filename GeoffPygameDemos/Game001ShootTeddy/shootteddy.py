@@ -257,7 +257,7 @@ def main():
     
 #Main Loop
     while 1:
-        clock.tick(30)
+        print clock.tick(30)
         
     #Scroll background
         background_offset = (2 + background_offset) % imh

@@ -560,12 +560,96 @@ Fourth order Runge Kutta has errors $O(\Delta t^5)$
 \end{itemize}
 
 \end{frame}
-\bframe{Adaptive stepsize}
+\bframe{Stepsize Matching Refresh Rate}
 \begin{itemize}
-\item Change $\Delta t$ as you go along...
-\item ...depending on how much things are changing.
+\item The simplest approach to stepsize is to use the framerate:
+  \begin{Verbatim}[frame=single]
+framerate = 30.0
+t = 0.0
+dt = 1.0/framerate
+while !quitting:
+  clock.tick(framerate)
+  handle.input()
+  integrate(state, t, dt)
+  t += dt
+  display()
+\end{Verbatim}
+
+\item This may be OK for simple games, but if more accuracy is
+  needed the physics should use as small a timestep as possible.
+\item Also, the game refresh rate may not keep up with the nominal
+  clock rate.
 \end{itemize}
 \end{frame}
+
+\bframe{Use actual timestep}
+\begin{itemize}
+\item {\tt clock.tick} returns milliseconds since last call.
+  \begin{Verbatim}[frame=single]
+framerate = 30.0
+t = 0.0
+while !quitting:
+  dt = clock.tick(framerate) * 0.001
+  handle.input()
+  integrate(state, t, dt)
+  t += dt       
+  display()
+  \end{Verbatim}
+  \item Physics will be ``same'' regardless of computer's speed.
+\item But again physics update should be as fast as possible
+  for most realism.
+  \item We could increase the framerate, but then we'd be doing
+    unnecessary rendering.
+\end{itemize}
+\end{frame}
+
+\bframe{Use smaller time step}
+\begin{itemize}
+  \begin{Verbatim}[frame=single]
+framerate = 30.0
+t = 0.0
+dt = 0.01
+while !quitting:
+  timespan = clock.tick(framerate) * 0.001
+  handle.input()
+  while (timespan > 0):
+    integrate(state, t, dt)
+    timespan -= dt
+  display()
+\end{Verbatim}
+\item Problem with the fractional part of {\tt dt}?
+  \begin{itemize}  \item Can interpolate for fractional {\tt dt}.
+    \end{itemize}
+\item What if the physics gets behind?  Spiral of death!
+  \begin{itemize}
+  \item Make sure your physics can keep up with {\tt dt}.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\bframe{Use separate time for display and physics}
+\begin{itemize}
+  \begin{Verbatim}[frame=single]
+framerate = 30.0
+rendertime, physicstime = 0.0, 0.0
+dt = 0.01
+while !quitting:
+  rendertime += clock.tick(framerate) * 0.001
+  handle.input()
+  while (physicstime < rendertime):
+    integrate(state, physicstime, dt)
+    physicstime += dt
+  display()
+\end{Verbatim}
+\item Spiral of death still possible.
+  \item Leftover fraction of {\tt dt} is carried forward to next
+    render. 
+  \item Can interpolate again for fractional {\tt dt}.
+\item Note that {\tt dt} can be {\em longer} than time for a frame and it still
+  works.
+\end{itemize}
+\end{frame}
+
 
 \bframe{Differential Equations}
 Reading:
