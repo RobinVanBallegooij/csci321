@@ -221,12 +221,51 @@ v_{t+1} &=& v_{t} + v'_{t} = v_{t} + a_{t}
 Euler:\\
 \begin{tabular}{r|rrr|rr}
 $t$ & $x$ & $v$ & $a$ \\\hline
-0 & 20 & 0 & -10 \\
-1 & 20 & -10 & -10 \\
-2 & 10 & -20 & -5 \\
-3 & -10 & -25 & 5 \\
-4 & -35 & -20 & 17 \\
-5 & -55 & -3 & 27 \\
+0.0 & 20.0 & 0.0 & -10.0 & \\
+1.0 & 20.0 & -10.0 & -10.0 & \\
+2.0 & 10.0 & -20.0 & -5.0 & \\
+3.0 & -10.0 & -25.0 & 5.0 & \\
+4.0 & -35.0 & -20.0 & 17.5 & \\
+5.0 & -55.0 & -2.5 & 27.5 & \\
+\end{tabular}
+\end{minipage}
+
+\begin{itemize}
+\item
+Run {\tt spring.py}
+\end{itemize}
+\end{frame}
+
+\bframe{Sample Calculations with smaller timestep}
+\begin{minipage}{2in}
+\begin{eqnarray*}
+dt &=& 0.5 \\
+m &=& 10  \\
+k &=& 5   \\
+f &=& -kx \\
+a &=& f/m = -kx/m = -x/2 \\
+x' &=& v \\
+v' &=& a \\
+x_{t+1} &=& x_{t} + x'_{t} = x_{t} + v_{t} \\
+v_{t+1} &=& v_{t} + v'_{t} = v_{t} + a_{t} 
+\end{eqnarray*}
+\end{minipage}
+\hfill\begin{minipage}{2in}
+
+Euler:\\
+\begin{tabular}{r|rrr|rr}
+$t$ & $x$ & $v$ & $a$ \\\hline
+0.0 & 20.0 & 0.0 & -10.0 & \\
+0.5 & 20.0 & -5.0 & -10.0 & \\
+1.0 & 17.5 & -10.0 & -8.8 & \\
+1.5 & 12.5 & -14.4 & -6.3 & \\
+2.0 & 5.3 & -17.5 & -2.7 & \\
+2.5 & -3.4 & -18.8 & 1.7 & \\
+3.0 & -12.9 & -18.0 & 6.4 & \\
+3.5 & -21.8 & -14.8 & 10.9 & \\
+4.0 & -29.2 & -9.3 & 14.6 & \\
+4.5 & -33.9 & -2.0 & 16.9 & \\
+5.0 & -34.9 & 6.5 & 17.4 & \\
 \end{tabular}
 \end{minipage}
 
@@ -419,17 +458,17 @@ v_{t+1} &=& v_{t} + v'_{t} = v_{t} + a_{t}
 Midpoint:\\
 \begin{tabular}{r|rrr|rr}
 $t$ & $x$ & $v$ & $a$ \\\hline
-0.0 & \rnode{A1}{20} & \rnode{A2}{0} & \rnode{A3}{-10} \\
-0.5 & \rnode{B1}{20} & \rnode{B2}{-5} & \rnode{B3}{-10} \\
-1.0 & \rnode{C1}{15} & \rnode{C2}{-10} & \rnode{C3}{-7} \\
-1.5 & 10 & -13 & -5 \\
-2.0 & 2 & -15 & -1 \\
-2.5 & -5 & -15 & 2 \\
-3.0 & -13 & -13 & 6 \\
-3.5 & -19 & -10 & 9 \\
-4.0 & -23  & -4 &  11 \\
-4.5 & -25 & 1 & 12 \\
-5.0 & -24 & 8 & 12\\
+0.0 & \rnode{A1}{20.0} & \rnode{A2}{0.0} & \rnode{A3}{-10.0} \\
+0.5 & \rnode{B1}{20.0} & \rnode{B2}{-5.0} & \rnode{B3}{-10.0} \\
+1.0 & \rnode{C1}{15.0} & \rnode{C2}{-10.0} & \rnode{C3}{-7.5} \\
+1.5 & 10.0 & -13.8 & -5.0 & \\
+2.0 & 1.3 & -15.0 & -0.6 & \\
+2.5 & -6.3 & -15.3 & 3.1 & \\
+3.0 & -14.1 & -11.9 & 7.0 & \\
+3.5 & -20.0 & -8.4 & 10.0 & \\
+4.0 & -22.4 & -1.9 & 11.2 & \\
+4.5 & -23.4 & 3.7 & 11.7 & \\
+5.0 & -18.7 & 9.8 & 9.3 & \\
 \end{tabular}
 \nccurve[ncurv=1,angleA=35,angleB=45,arrows=->,arrowscale=2,linecolor=blue]{A1}{B1}
 \nccurve[angleA=180,angleB=45,arrows=->,arrowscale=2,linecolor=blue]{A2}{B1}
@@ -458,17 +497,17 @@ v_{t+1} &=& v_{t} + v'_{t} = v_{t} + a_{t}
 Midpoint:\\
 \begin{tabular}{r|rrr|rr}
 $t$ & $x$ & $v$ & $a$ \\\hline
-0.0 & \rnode{A1}{20} & \rnode{A2}{0} & \rnode{A3}{-10} \\
-0.5 & \rnode{B1}{20} & \rnode{B2}{-5} & \rnode{B3}{-10} \\
-1.0 & \rnode{C1}{15} & \rnode{C2}{-10} & \rnode{C3}{-7} \\
-1.5 & 10 & -13 & -5 \\
-2.0 & 2 & -15 & -1 \\
-2.5 & -5 & -15 & 2 \\
-3.0 & -13 & -13 & 6 \\
-3.5 & -19 & -10 & 9 \\
-4.0 & -23  & -4 &  11 \\
-4.5 & -25 & 1 & 12 \\
-5.0 & -24 & 8 & 12\\
+0.0 & \rnode{A1}{20.0} & \rnode{A2}{0.0} & \rnode{A3}{-10.0} \\
+0.5 & \rnode{B1}{20.0} & \rnode{B2}{-5.0} & \rnode{B3}{-10.0} \\
+1.0 & \rnode{C1}{15.0} & \rnode{C2}{-10.0} & \rnode{C3}{-7.5} \\
+1.5 & 10.0 & -13.8 & -5.0 & \\
+2.0 & 1.3 & -15.0 & -0.6 & \\
+2.5 & -6.3 & -15.3 & 3.1 & \\
+3.0 & -14.1 & -11.9 & 7.0 & \\
+3.5 & -20.0 & -8.4 & 10.0 & \\
+4.0 & -22.4 & -1.9 & 11.2 & \\
+4.5 & -23.4 & 3.7 & 11.7 & \\
+5.0 & -18.7 & 9.8 & 9.3 & \\
 \end{tabular}
 \nccurve[angleA=0,angleB=45,arrows=->,arrowscale=2,linecolor=blue]{A1}{C1}
 \nccurve[angleA=180,angleB=45,arrows=->,arrowscale=2,linecolor=blue]{B2}{C1}
@@ -477,6 +516,9 @@ $t$ & $x$ & $v$ & $a$ \\\hline
 \end{minipage}
 
 \bigskip \hfill Then add all the ``half-derivative.''
+
+\bigskip
+Note that this is far more accurate than Euler with half step size.
 \end{frame}
 
 %\bframe{ Fourth Order Runge-Kutta}
@@ -560,6 +602,7 @@ Fourth order Runge Kutta has errors $O(\Delta t^5)$
 \end{itemize}
 
 \end{frame}
+
 \bframe{Stepsize Matching Refresh Rate}
 \begin{itemize}
 \item The simplest approach to stepsize is to use the framerate:
@@ -579,6 +622,26 @@ while !quitting:
   needed the physics should use as small a timestep as possible.
 \item Also, the game refresh rate may not keep up with the nominal
   clock rate.
+\end{itemize}
+\end{frame}
+
+
+\bframe{Stepsize Matching Refresh Rate $\times n$}
+\begin{itemize}
+\item Can also match $n$ steps to each frame:
+  \begin{Verbatim}[frame=single]
+framerate = 30.0
+t = 0.0
+dt = 1.0/framerate
+while !quitting:
+  clock.tick(framerate)
+  handle.input()
+  for i in range(n):
+     integrate(state, t, dt/n)
+  t += dt
+  display()
+\end{Verbatim}
+
 \end{itemize}
 \end{frame}
 
@@ -642,6 +705,10 @@ while !quitting:
   display()
 \end{Verbatim}
 \item Spiral of death still possible.
+  \begin{itemize}
+  \item Note: matching stepsize to framerate$\times n$ avoids death spiral.
+  \end{itemize}
+  
   \item Leftover fraction of {\tt dt} is carried forward to next
     render. 
   \item Can interpolate again for fractional {\tt dt}.

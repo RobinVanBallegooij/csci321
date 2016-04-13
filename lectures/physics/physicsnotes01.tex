@@ -75,6 +75,30 @@
 \titlepage
 \end{frame}
 
+
+\bframe{numpy}
+A nice python library for dealing with mathematical vectors and matrices.
+
+\begin{Verbatim}[frame=single]
+>>> import numpy
+>>> x = (1,2,3)
+>>> y = (3,2,1)
+>>> 3*x
+(1, 2, 3, 1, 2, 3, 1, 2, 3)
+>>> x + y
+(1, 2, 3, 3, 2, 1)
+>>> xvec = numpy.array(x)
+>>> yvec = numpy.array(y)
+>>> 3*xvec
+array([3, 6, 9])
+>>> xvec + yvec
+array([4, 4, 4])
+>>> numpy.dot(xvec, yvec)
+10
+\end{Verbatim}
+
+\end{frame}
+
 \bframe{Points in Space}
 
 \grph{false}{

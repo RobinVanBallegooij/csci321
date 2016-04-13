@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2015.6.12)  7 APR 2016 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2015.6.12)  13 APR 2016 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,12 +1214,22 @@ Overfull \hbox (0.67197pt too wide) in alignment at lines 3--13
 ]
 \openout4 = `physicsnotes02.vrb'.
 
- (./physicsnotes02.vrb) [8
+ (./physicsnotes02.vrb
+Overfull \hbox (0.67197pt too wide) in alignment at lines 3--13
+ [][][] []
+ []
+
+) [8
 
 ]
 \openout4 = `physicsnotes02.vrb'.
 
  (./physicsnotes02.vrb) [9
+
+]
+\openout4 = `physicsnotes02.vrb'.
+
+ (./physicsnotes02.vrb) [10
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1230,7 +1240,7 @@ Overfull \hbox (5.6903pt too wide) in paragraph at lines 18--19
  [] 
  []
 
-) [10
+) [11
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1240,7 +1250,7 @@ Overfull \hbox (5.6903pt too wide) in paragraph at lines 23--24
  [] 
  []
 
-) [11
+) [12
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1250,7 +1260,7 @@ Overfull \hbox (5.6903pt too wide) in paragraph at lines 26--27
  [] 
  []
 
-) [12
+) [13
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1260,7 +1270,7 @@ Overfull \hbox (5.6903pt too wide) in paragraph at lines 22--23
  [] 
  []
 
-) [13
+) [14
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1271,20 +1281,10 @@ Overfull \hbox (5.6903pt too wide) in paragraph at lines 23--24
  []
 
 )
-Overfull \vbox (18.349pt too high) detected at line 402
+Overfull \vbox (18.349pt too high) detected at line 441
  []
 
-[14
-
-]
-\openout4 = `physicsnotes02.vrb'.
-
- (./physicsnotes02.vrb
-Overfull \hbox (0.67197pt too wide) in alignment at lines 3--13
- [][][] []
- []
-
-) [15
+[15
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1299,7 +1299,17 @@ Overfull \hbox (0.67197pt too wide) in alignment at lines 3--13
 ]
 \openout4 = `physicsnotes02.vrb'.
 
- (./physicsnotes02.vrb) [17
+ (./physicsnotes02.vrb
+Overfull \hbox (0.67197pt too wide) in alignment at lines 3--13
+ [][][] []
+ []
+
+) [17
+
+]
+\openout4 = `physicsnotes02.vrb'.
+
+ (./physicsnotes02.vrb) [18
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1310,15 +1320,10 @@ Overfull \hbox (5.6903pt too wide) in paragraph at lines 32--33
  []
 
 )
-Overfull \vbox (2.349pt too high) detected at line 543
+Overfull \vbox (2.349pt too high) detected at line 585
  []
 
-[18
-
-]
-\openout4 = `physicsnotes02.vrb'.
-
- (./physicsnotes02.vrb) [19
+[19
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1328,19 +1333,29 @@ Overfull \vbox (2.349pt too high) detected at line 543
 ]
 \openout4 = `physicsnotes02.vrb'.
 
-
-(./physicsnotes02.vrb) [21
+ (./physicsnotes02.vrb) [21
 
 ]
 \openout4 = `physicsnotes02.vrb'.
 
- (./physicsnotes02.vrb) [22
+
+(./physicsnotes02.vrb) [22
+
+]
+\openout4 = `physicsnotes02.vrb'.
+
+ (./physicsnotes02.vrb) [23
 
 ]
 \openout4 = `physicsnotes02.vrb'.
 
  (./physicsnotes02.vrb)
-[23
+[24
+
+]
+\openout4 = `physicsnotes02.vrb'.
+
+ (./physicsnotes02.vrb) [25
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1350,7 +1365,7 @@ Overfull \hbox (73.66293pt too wide) in paragraph at lines 21--22
 [][][][][]  
  []
 
-) [24
+) [26
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1360,12 +1375,12 @@ Overfull \hbox (3.85767pt too wide) in paragraph at lines 3--4
 [][][][]  
  []
 
-) [25
+) [27
 
 ]
 \openout4 = `physicsnotes02.vrb'.
 
- (./physicsnotes02.vrb) [26
+ (./physicsnotes02.vrb) [28
 
 ]
 \openout4 = `physicsnotes02.vrb'.
@@ -1380,12 +1395,12 @@ Overfull \hbox (78.30286pt too wide) in paragraph at lines 8--9
 [][][][][]  
  []
 
-) [27
+) [29
 
 ]
 \openout4 = `physicsnotes02.vrb'.
 
- (./physicsnotes02.vrb) [28
+ (./physicsnotes02.vrb) [30
 
 ]
 \tf@nav=\write7
@@ -1397,11 +1412,11 @@ Overfull \hbox (78.30286pt too wide) in paragraph at lines 8--9
 \tf@snm=\write9
 \openout9 = `physicsnotes02.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 746.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 746.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 813.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 813.
  (./physicsnotes02.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 746.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 746.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 813.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 813.
 Package rerunfilecheck Info: File `physicsnotes02.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1412,15 +1427,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 746.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 813.
  ) 
 Here is how much of TeX's memory you used:
- 21149 strings out of 494978
- 388841 string characters out of 6180209
- 553998 words of memory out of 5000000
- 23793 multiletter control sequences out of 15000+600000
- 11850 words of font info for 44 fonts, out of 8000000 for 9000
+ 21165 strings out of 494978
+ 389075 string characters out of 6180209
+ 555998 words of memory out of 5000000
+ 23803 multiletter control sequences out of 15000+600000
+ 13500 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  56i,15n,59p,566b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on physicsnotes02.dvi (28 pages, 138220 bytes).
+Output written on physicsnotes02.dvi (30 pages, 145736 bytes).
