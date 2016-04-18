@@ -86,7 +86,7 @@ def main():
     m = 10.0
     k = 4.0
     t = 0
-    dt = 0.05
+    dt = 2
 
     startstate = array((20,0,t), dtype=float)
     eulerstate = startstate.copy()
@@ -97,8 +97,8 @@ def main():
 
     running = 1
     while t*5 < screen.get_width():
-        pygame.draw.circle(background, (255,0,0), xt(eulerstate), 1)
-        pygame.draw.circle(background, (0,255,0), xt(midpointstate), 1)
+        #pygame.draw.circle(background, (255,0,0), xt(eulerstate), 1)
+        #pygame.draw.circle(background, (0,255,0), xt(midpointstate), 1)
         pygame.draw.circle(background, (0,0,255), xt(rungestate), 1)
         pygame.draw.circle(background, (0,255,255), xt(verletstate), 1)
         pygame.draw.circle(background, (255,255,0), xt(sympstate), 1)

@@ -21,6 +21,7 @@ class _ImageManager(object):
         for d in directions:
             self.animations[name][d] = {}
             for a in actions:
+                print a
                 self.animations[name][d][a] = []
                 pattern = re.compile(a + ' ' + d + '\d\d\d\d.bmp')
                 for f in os.listdir(folder):
