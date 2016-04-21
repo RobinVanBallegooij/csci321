@@ -193,6 +193,11 @@ Sounds = SoundManager()
 Sprites = pygame.sprite.RenderPlain()
 Bear_sprites = pygame.sprite.RenderPlain()
 Wall_sprites = pygame.sprite.RenderPlain()
+
+def AddBears(n):
+    for bears in range(0,n):
+        Bear_sprites.add(Bear())
+    Sprites.add(Bear_sprites)    
     
 def main():
     """this function is called when the program starts.
@@ -240,9 +245,7 @@ def main():
 #Create Game Objects
     cursor = Cursor()
     Sprites.add(cursor)
-    for bears in range(0,10):
-        Bear_sprites.add(Bear())
-    Sprites.add(Bear_sprites)
+    AddBears(10)
     for wallpos in range(0,screensize[0],32):
         Wall_sprites.add(Wall(wallpos,0))
         Wall_sprites.add(Wall(wallpos,screensize[1]-32))
@@ -257,7 +260,7 @@ def main():
     
 #Main Loop
     while 1:
-        print clock.tick(30)
+        clock.tick(30)
         
     #Scroll background
         background_offset = (2 + background_offset) % imh
@@ -284,6 +287,8 @@ def main():
                                                         Bear_sprites,
                                                         1):
                     pass
+                if len(Bear_sprites) == 0:
+                    AddBears(10)
                    
     #Update sprites
         Sprites.update()

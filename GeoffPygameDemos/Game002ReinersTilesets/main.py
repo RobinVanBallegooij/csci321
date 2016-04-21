@@ -84,7 +84,7 @@ def main():
         if pressed[K_UP]:
             myogre.speed = 4.0
         else:
-            myogre.speed = 0.0
+            myogre.speed  = 0.0
 
         # Update:
         AllSprites.update()
