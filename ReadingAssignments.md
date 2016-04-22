@@ -52,3 +52,9 @@
 ### Many objects:
 * [http://en.wikipedia.org/wiki/Sweep_and_prune](http://en.wikipedia.org/wiki/Sweep_and_prune)
 * [http://jitter-physics.com/wordpress/?tag=sweep-and-prune](http://jitter-physics.com/wordpress/?tag=sweep-and-prune)</a>
+
+## Blender
+
+* [Textbook](http://www.cdschools.org/Page/455) Chapters 1,2,3,4,9,16,21,22
+* [Manual](https://www.blender.org/manual/)
+

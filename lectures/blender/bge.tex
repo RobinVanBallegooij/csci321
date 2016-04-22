@@ -37,6 +37,11 @@ You can only use image textures in the game engine,
 \end{description}
 \ei
 
+\sect{The reference manual}
+\bi
+\ii \url{https://www.blender.org/manual/contents.html}
+\ei
+
 \sect{Beginning tutorials}
 \bi
 \ii \url{https://www.youtube.com/watch?v=tczC2URHRao}
@@ -105,7 +110,9 @@ the bottom, DON'T USE IT:
 \ii Change rendering engine from {\bf Blender Render} to {\bf Blender Game}
 \ii Expand right hand panel and lower panel.
 \ii Change lower panel to game logic panel.
-\ii Change Multitexture to GLSL in Render panel (tiny camera), Shading subpanel
+\ii Change Multitexture to GLSL in Render panel (tiny camera),
+Shading subpanel
+\ii Change Viewport shading to Material (3d window buttons)
 \ii Save startup file
 \ii Tools shelf
 \ii 3D cursor
@@ -126,6 +133,7 @@ the bottom, DON'T USE IT:
 \ii Multiple layouts
 \ii Multiple scenes
 \ii Use layers to simplify 
+\ii Can put light in every layer (shift select)
 \ei
 \end{multicols}
 
@@ -139,6 +147,7 @@ the bottom, DON'T USE IT:
 (original cube already has material, pick color)
 \ii Snap cursor to center (shift S)
 \ii Add playing surface (shift A)
+\ii Give it the name {\tt Floor}
 \ii Go to edit mode (tab)
 \ii Scale by 10 (S then 10)
 \ii Exit edit mode (tab)
@@ -172,8 +181,10 @@ the bottom, DON'T USE IT:
 
 \bi
 \ii Select (right click) the cube
+\ii Drag cube up a bit and rotate randomly.
 \ii Go to physics button (bouncy ball)
 \ii Change Static to Rigid Body
+\ii Enable collision bounds
 \ii Play game
 \ii Walk off cliff
 \ei
@@ -182,12 +193,62 @@ the bottom, DON'T USE IT:
 
 \bi
 \ii Add Collision bounds to cube
-\ii Add two spheres
-\ii Give them material and color
-\ii Make them rigid bodies
+\ii Add one sphere
+\ii Give it material and color
+\ii Make it rigid body
+\ii Duplicate (shift-D) for more balls
 \ii Play game, push spheres off cliff
 \ii Edit spheres, check collision sphere
 \ei
+
+\sect{Add a door}
+\bi
+\ii Add a door, name it {\bf Door}
+\ii Add collision with property {\bf Avatar}, move up
+\ii Add {\bf Avatar} property to cube
+\ii Open door
+\ei
+
+\sect{Lock the door}
+\bi
+\ii Add a boolean property {\bf Open} to Door, set to false
+\ii Add a property sensor to Door, sensing {\bf Open} is true
+\ii {\bf and} that property to the collision sensor.
+\ii Try to open door, fail
+\ii Change default Open property to true
+\ii Try to open door, succeed
+\ei
+
+\sect{Add a door key}
+\bi
+\ii Add a monkey, name it {\bf Key}
+\ii Add a collision with Avatar to it
+\ii Collision sends {\bf Open} message to Door
+\ii Go back to Door, add a message sensor
+\ii When it gets the Open message, it sets Open property to true
+\ii Test:  can't open door unless you touch the Monkey first.
+\ei
+
+\sect{Add a camera}
+\bi
+\ii Add a small cone just behind the camera, pointed in the same
+direction.
+\ii Parent the cone to the camera
+\bi
+\ii Select cone, then shif-select camera
+\ii Control-P
+\ei
+\ii Move camera, cone follows
+\ii Add Always sensor to the camera
+\ii Connect to Camera action, follow the cube
+\bi
+\ii Height 5
+\ii Min 5
+\ii Max 10
+\ei
+\ii If you don't like the camera actuator, can just parent camera to cube.
+\ei
+
 
 \sect{Using animations}
 
