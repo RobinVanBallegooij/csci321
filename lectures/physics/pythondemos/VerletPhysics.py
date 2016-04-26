@@ -23,7 +23,7 @@ def _intervalDistance(min1, max1, min2, max2):
 class ParticleSystem():
     def __init__(self, positions, velocities, masses, time = 0.0, collisions=True):
         self.positions = N.array(positions)
-        self.oldpositions = None
+        self.oldpositions = N.array(())
         self.velocities = N.array(velocities)
         self.masses = N.array(masses)
         self.n = len(masses)
@@ -176,7 +176,7 @@ class ParticleSystem():
         
 
     def Step(self, deltaT):
-        if self.oldpositions == None or self.euler:
+        if len(self.oldpositions) == 0 or self.euler:
             if self.eulerDamping:
                 self.velocities *= eulerDampingFactor
             self.oldpositions = self.positions

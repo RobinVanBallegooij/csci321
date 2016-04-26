@@ -142,7 +142,7 @@ class Bear(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self) #call Sprite initializer
         self.images, self.rect = Images.get('bear')
         self.frame = 0
-        self.aspeed = 0.5 + random()
+        self.aspeed = 0#0.5 + random()
         self.nframes = len(self.images)
         self.image = self.images[self.frame]
         direction = randint(0,359)
