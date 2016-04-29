@@ -1,4 +1,4 @@
-\documentclass[landscape]{article}
+\documentclass[]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -8,7 +8,7 @@
 \newcommand{\ii}{\item}
 \newcommand{\ei}{\end{itemize}}
 
-\newcommand{\sect}[1]{\newpage{\bf #1}}
+\newcommand{\sect}[1]{\section{\bf #1}}
 
 \title{Notes on Using Blender for Games}
 \author{Geoffrey Matthews}
@@ -17,7 +17,7 @@
 
 \maketitle
 
-\LARGE
+%\LARGE
 \sect{Textbook:}
 \bi
 \ii\url{http://www.cdschools.org/Page/455}
@@ -104,7 +104,7 @@ the bottom, DON'T USE IT:
 \ei
 
 \sect{Starting Blender Game Engine Development}
-\begin{multicols}{2}
+%\begin{multicols}{2}
 \bi
 \ii Start blender
 \ii Change rendering engine from {\bf Blender Render} to {\bf Blender Game}
@@ -135,7 +135,7 @@ Shading subpanel
 \ii Use layers to simplify 
 \ii Can put light in every layer (shift select)
 \ei
-\end{multicols}
+%\end{multicols}
 
 \sect{Add some objects}
 \bi
@@ -293,11 +293,12 @@ direction.
 
 \bi
 \ii In Shading panel (tiny camera) change Shading to GLSL
-\ii In texture panel make sure Material Texture is checked (three icons, sphere, sphere, tablecloth, check the middle one)
+\ii In texture panel (tablecloth)
+make sure Material Texture is checked (three icons, sphere, sphere, tablecloth, check the middle one)
 \ii Give object texture: Image (or Movie)
-\ii Give texture NAME
+\ii Give texture NAMETexture
 \ii Give object new image
-\ii Give image NAME
+\ii Give image NAMEImagea
 \ii In edit mode
 \ii Select seam vertices
 \ii Go to UV editing layout
