@@ -124,6 +124,19 @@ def main():
     dtext = "Wait"
     for o in ogres:
         o.changeState(S.User())
+    print """
+c: slow clock
+H: show heading
+F12: show world
+b: show box
+0: wait
+w: wander
+s: seek
+p: pursuit
+f: flee
+e: evasion
+"""
+    
 
 #Main Loop
     while 1:

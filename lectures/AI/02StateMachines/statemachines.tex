@@ -192,12 +192,14 @@ in thirty seconds.
 \li Events in one object can trigger events in other objects.
 \li Intuitive way to design this is a {\bf message} system.
 \li {\tt Telegram} structure and {\tt MessageDispatcher} class.
+\li {\tt MessageDispatcher} uses priority queue of messages.
 \li Also uses an {\tt EntityManager} so that IDs can be mapped to
 entities. 
 \li Entities have {\tt HandleMessage} added to their Global State.
 \li Global States have {\tt OnMessage} added.
 \bi
 \li Returns a boolean so messages can be rerouted if necessary.
+\li {\tt MessageDispatcher} sends messages when time has arrived.
 \ei
 \ei
 \end{frame}
