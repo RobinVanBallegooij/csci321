@@ -58,3 +58,8 @@
 * [Textbook](http://www.cdschools.org/Page/455) Chapters 1,2,3,4,9,16,21,22
 * [Manual](https://www.blender.org/manual/)
 * Many tutorials listed in the lecture notes, and easy to find more online.
+
+## Steering behaviors
+* [Reynolds](http://www.red3d.com/cwr/steer/)
+* [Gamedev](http://gamedevelopment.tutsplus.com/series/understanding-steering-behaviors--gamedev-12732)
+* [OpenSteer](http://opensteer.sourceforge.net/)

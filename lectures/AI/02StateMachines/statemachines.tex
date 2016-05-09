@@ -176,17 +176,29 @@ state.
 
 \sect{Messaging}
 \bi
+\li More general communication than collision.
+\li Better for intelligent agents.
+\li Bullets can message things they hit.
+\li Football player makes a pass, messages receiver, who responds
+accordingly. 
+\li Injured NPC can message its comrades, who can come to give aid.
+\li Lighting a match in a dark room sends delayed message to burn out
+in thirty seconds.
+\ei
+\end{frame}
+
+\sect{Messaging}
+\bi
 \li Events in one object can trigger events in other objects.
 \li Intuitive way to design this is a {\bf message} system.
 \li {\tt Telegram} structure and {\tt MessageDispatcher} class.
 \li Also uses an {\tt EntityManager} so that IDs can be mapped to
 entities. 
-\li Entities have {\tt HandleMessage} added.
-\li States have {\tt OnMessage} added.
+\li Entities have {\tt HandleMessage} added to their Global State.
+\li Global States have {\tt OnMessage} added.
 \bi
 \li Returns a boolean so messages can be rerouted if necessary.
 \ei
-\li See Figure 2.7
 \ei
 \end{frame}
 

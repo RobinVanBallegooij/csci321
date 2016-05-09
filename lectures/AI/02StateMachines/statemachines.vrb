@@ -1,4 +1,6 @@
-\frametitle {Summing Up}\par \bi
+\frametitle{Summing Up}
+
+\bi
 \li FSMs a good way to manage complex behavior.
 \li Can use two FSMs in parallel, {\em e.g.}:
   \bi
