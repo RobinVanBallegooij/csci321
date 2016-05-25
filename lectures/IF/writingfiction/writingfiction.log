@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.12)  16 MAY 2016 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.12)  20 MAY 2016 08:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**writingfiction.tex
+**writingfiction
 (./writingfiction.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 4 languages loaded.
@@ -981,181 +981,185 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [15
 
+] [16
+
+] [17
+
 ]
-<herowithathousandfaces.jpg, id=402, 30.8352pt x 49.1436pt>
+<herowithathousandfaces.jpg, id=454, 30.8352pt x 49.1436pt>
 File: herowithathousandfaces.jpg Graphic file (type jpg)
 
 <use herowithathousandfaces.jpg>
-Package pdftex.def Info: herowithathousandfaces.jpg used on input line 210.
+Package pdftex.def Info: herowithathousandfaces.jpg used on input line 238.
 (pdftex.def)             Requested size: 92.50534pt x 147.43039pt.
- [16
+ [18
 
  <./herowithathousandfaces.jpg>]
-<lukeshome.jpg, id=428, 652.4375pt x 290.08376pt>
+<lukeshome.jpg, id=480, 652.4375pt x 290.08376pt>
 File: lukeshome.jpg Graphic file (type jpg)
  <use lukeshome.jpg>
-Package pdftex.def Info: lukeshome.jpg used on input line 232.
+Package pdftex.def Info: lukeshome.jpg used on input line 260.
 (pdftex.def)             Requested size: 307.28987pt x 136.63152pt.
- [17
+ [19
 
- <./lukeshome.jpg>] <help-me-obi-wan.jpg, id=455, 389.95688pt x 291.33844pt>
+ <./lukeshome.jpg>] <help-me-obi-wan.jpg, id=507, 389.95688pt x 291.33844pt>
 File: help-me-obi-wan.jpg Graphic file (type jpg)
 
 <use help-me-obi-wan.jpg>
-Package pdftex.def Info: help-me-obi-wan.jpg used on input line 253.
+Package pdftex.def Info: help-me-obi-wan.jpg used on input line 281.
 (pdftex.def)             Requested size: 155.97998pt x 116.53331pt.
- [18
+ [20
 
  <./help-me-obi-wan.jpg>]
-<lukementor.png, id=481, 833.1125pt x 468.75125pt>
+<lukementor.png, id=533, 833.1125pt x 468.75125pt>
 File: lukementor.png Graphic file (type png)
  <use lukementor.png>
-Package pdftex.def Info: lukementor.png used on input line 275.
+Package pdftex.def Info: lukementor.png used on input line 303.
 (pdftex.def)             Requested size: 249.93568pt x 140.62645pt.
 
-[19
+[21
 
  <./lukementor.png>]
-<star_wars_luke_ben.jpg, id=510, 301.125pt x 220.825pt>
+<star_wars_luke_ben.jpg, id=562, 301.125pt x 220.825pt>
 File: star_wars_luke_ben.jpg Graphic file (type jpg)
 
 <use star_wars_luke_ben.jpg>
-Package pdftex.def Info: star_wars_luke_ben.jpg used on input line 292.
+Package pdftex.def Info: star_wars_luke_ben.jpg used on input line 320.
 (pdftex.def)             Requested size: 150.56212pt x 110.41222pt.
- [20
+ [22
 
  <./star_wars_luke_ben.jpg>]
-<mindtrick.jpg, id=536, 803.0pt x 344.28625pt>
+<mindtrick.jpg, id=588, 803.0pt x 344.28625pt>
 File: mindtrick.jpg Graphic file (type jpg)
  <use mindtrick.jpg>
-Package pdftex.def Info: mindtrick.jpg used on input line 322.
+Package pdftex.def Info: mindtrick.jpg used on input line 350.
 (pdftex.def)             Requested size: 240.90186pt x 103.28667pt.
- [21
+ [23
 
- <./mindtrick.jpg>] <chewbacca.jpg, id=563, 983.675pt x 1207.51125pt>
+ <./mindtrick.jpg>] <chewbacca.jpg, id=614, 983.675pt x 1207.51125pt>
 File: chewbacca.jpg Graphic file (type jpg)
 
 <use chewbacca.jpg>
-Package pdftex.def Info: chewbacca.jpg used on input line 349.
+Package pdftex.def Info: chewbacca.jpg used on input line 377.
 (pdftex.def)             Requested size: 76.82246pt x 94.29973pt.
- <hansolo.jpg, id=564, 953.5625pt x 1204.5pt>
+ <hansolo.jpg, id=615, 953.5625pt x 1204.5pt>
 File: hansolo.jpg Graphic file (type jpg)
 
 <use hansolo.jpg>
-Package pdftex.def Info: hansolo.jpg used on input line 349.
+Package pdftex.def Info: hansolo.jpg used on input line 377.
 (pdftex.def)             Requested size: 76.82246pt x 97.02362pt.
- <greedo.png, id=565, 401.5pt x 336.25626pt>
+ <greedo.png, id=616, 401.5pt x 336.25626pt>
 File: greedo.png Graphic file (type png)
  <use greedo.png>
-Package pdftex.def Info: greedo.png used on input line 349.
+Package pdftex.def Info: greedo.png used on input line 377.
 (pdftex.def)             Requested size: 76.82246pt x 64.33572pt.
 
-<governortarkin.jpg, id=566, 319.1925pt x 319.1925pt>
+<governortarkin.jpg, id=617, 319.1925pt x 319.1925pt>
 File: governortarkin.jpg Graphic file (type jpg)
  <use governortarkin.jpg>
-Package pdftex.def Info: governortarkin.jpg used on input line 349.
+Package pdftex.def Info: governortarkin.jpg used on input line 377.
 (pdftex.def)             Requested size: 76.82246pt x 76.82205pt.
-
-[22
-
- <./chewbacca.jpg> <./hansolo.jpg> <./greedo.png> <./governortarkin.jpg>]
-<Got_A_Bad_feeling.jpg, id=592, 1405.25pt x 943.525pt>
-File: Got_A_Bad_feeling.jpg Graphic file (type jpg)
-
-<use Got_A_Bad_feeling.jpg>
-Package pdftex.def Info: Got_A_Bad_feeling.jpg used on input line 372.
-(pdftex.def)             Requested size: 211.87196pt x 142.26378pt.
- [23
-
- <./Got_A_Bad_feeling.jpg>]
-<garbage_chute.jpg, id=618, 1606.0pt x 1072.005pt>
-File: garbage_chute.jpg Graphic file (type jpg)
- <use garbage_chute.jpg>
-Package pdftex.def Info: garbage_chute.jpg used on input line 392.
-(pdftex.def)             Requested size: 200.74951pt x 134.00029pt.
 
 [24
 
- <./garbage_chute.jpg>] <obivader.png, id=644, 833.1125pt x 468.75125pt>
+ <./chewbacca.jpg> <./hansolo.jpg> <./greedo.png> <./governortarkin.jpg>]
+<Got_A_Bad_feeling.jpg, id=643, 1405.25pt x 943.525pt>
+File: Got_A_Bad_feeling.jpg Graphic file (type jpg)
+
+<use Got_A_Bad_feeling.jpg>
+Package pdftex.def Info: Got_A_Bad_feeling.jpg used on input line 400.
+(pdftex.def)             Requested size: 211.87196pt x 142.26378pt.
+ [25
+
+ <./Got_A_Bad_feeling.jpg>]
+<garbage_chute.jpg, id=671, 1606.0pt x 1072.005pt>
+File: garbage_chute.jpg Graphic file (type jpg)
+ <use garbage_chute.jpg>
+Package pdftex.def Info: garbage_chute.jpg used on input line 420.
+(pdftex.def)             Requested size: 200.74951pt x 134.00029pt.
+
+[26
+
+ <./garbage_chute.jpg>] <obivader.png, id=697, 833.1125pt x 468.75125pt>
 File: obivader.png Graphic file (type png)
 
 <use obivader.png>
-Package pdftex.def Info: obivader.png used on input line 401.
+Package pdftex.def Info: obivader.png used on input line 429.
 (pdftex.def)             Requested size: 307.28987pt x 172.89879pt.
- [25
+ [27
 
  <./obivader.png>]
-<womprats.png, id=673, 501.875pt x 209.78375pt>
+<womprats.png, id=724, 501.875pt x 209.78375pt>
 File: womprats.png Graphic file (type png)
  <use womprats.png>
-Package pdftex.def Info: womprats.png used on input line 414.
+Package pdftex.def Info: womprats.png used on input line 442.
 (pdftex.def)             Requested size: 307.28987pt x 128.45444pt.
- [26
-
- <./womprats.png>] <yahoo.jpg, id=700, 485.56406pt x 246.9225pt>
-File: yahoo.jpg Graphic file (type jpg)
- <use yahoo.jpg>
-Package pdftex.def Info: yahoo.jpg used on input line 432.
-(pdftex.def)             Requested size: 242.78143pt x 123.46094pt.
-
-[27
-
- <./yahoo.jpg>] <finalscene.jpg, id=726, 1606.0pt x 681.54625pt>
-File: finalscene.jpg Graphic file (type jpg)
-
-<use finalscene.jpg>
-Package pdftex.def Info: finalscene.jpg used on input line 450.
-(pdftex.def)             Requested size: 307.28987pt x 130.39989pt.
  [28
 
- <./finalscene.jpg>]
-<herofig01.png, id=752, 1682.285pt x 935.495pt>
-File: herofig01.png Graphic file (type png)
- <use herofig01.png>
-Package pdftex.def Info: herofig01.png used on input line 453.
-(pdftex.def)             Requested size: 420.57022pt x 233.87317pt.
-
-Overfull \hbox (113.28035pt too wide) in paragraph at lines 453--453
-[][]  
- []
+ <./womprats.png>] <yahoo.jpg, id=751, 485.56406pt x 246.9225pt>
+File: yahoo.jpg Graphic file (type jpg)
+ <use yahoo.jpg>
+Package pdftex.def Info: yahoo.jpg used on input line 460.
+(pdftex.def)             Requested size: 242.78143pt x 123.46094pt.
 
 [29
 
- <./herofig01.png>] <herofig02.png, id=778, 1919.17pt x 1224.575pt>
-File: herofig02.png Graphic file (type png)
+ <./yahoo.jpg>] <finalscene.jpg, id=777, 1606.0pt x 681.54625pt>
+File: finalscene.jpg Graphic file (type jpg)
 
-<use herofig02.png>
-Package pdftex.def Info: herofig02.png used on input line 457.
-(pdftex.def)             Requested size: 345.4357pt x 220.41399pt.
+<use finalscene.jpg>
+Package pdftex.def Info: finalscene.jpg used on input line 478.
+(pdftex.def)             Requested size: 307.28987pt x 130.39989pt.
  [30
 
- <./herofig02.png>]
-<herofig03.png, id=805, 1706.375pt x 931.48pt>
-File: herofig03.png Graphic file (type png)
- <use herofig03.png>
-Package pdftex.def Info: herofig03.png used on input line 461.
-(pdftex.def)             Requested size: 426.59271pt x 232.86943pt.
+ <./finalscene.jpg>]
+<herofig01.png, id=804, 1682.285pt x 935.495pt>
+File: herofig01.png Graphic file (type png)
+ <use herofig01.png>
+Package pdftex.def Info: herofig01.png used on input line 481.
+(pdftex.def)             Requested size: 420.57022pt x 233.87317pt.
 
-Overfull \hbox (119.30284pt too wide) in paragraph at lines 461--461
+Overfull \hbox (113.28035pt too wide) in paragraph at lines 481--481
 [][]  
  []
 
 [31
 
- <./herofig03.png>] <herofig04.png, id=832, 1706.375pt x 931.48pt>
-File: herofig04.png Graphic file (type png)
+ <./herofig01.png>] <herofig02.png, id=831, 1919.17pt x 1224.575pt>
+File: herofig02.png Graphic file (type png)
 
-<use herofig04.png>
-Package pdftex.def Info: herofig04.png used on input line 465.
+<use herofig02.png>
+Package pdftex.def Info: herofig02.png used on input line 485.
+(pdftex.def)             Requested size: 345.4357pt x 220.41399pt.
+ [32
+
+ <./herofig02.png>]
+<herofig03.png, id=857, 1706.375pt x 931.48pt>
+File: herofig03.png Graphic file (type png)
+ <use herofig03.png>
+Package pdftex.def Info: herofig03.png used on input line 489.
 (pdftex.def)             Requested size: 426.59271pt x 232.86943pt.
 
-Overfull \hbox (119.30284pt too wide) in paragraph at lines 465--465
+Overfull \hbox (119.30284pt too wide) in paragraph at lines 489--489
 [][]  
  []
 
-[32
+[33
 
- <./herofig04.png>] [33
+ <./herofig03.png>] <herofig04.png, id=883, 1706.375pt x 931.48pt>
+File: herofig04.png Graphic file (type png)
+
+<use herofig04.png>
+Package pdftex.def Info: herofig04.png used on input line 493.
+(pdftex.def)             Requested size: 426.59271pt x 232.86943pt.
+
+Overfull \hbox (119.30284pt too wide) in paragraph at lines 493--493
+[][]  
+ []
+
+[34
+
+ <./herofig04.png>] [35
 
 ]
 Missing character: There is no ‚ in font cmss10!
@@ -1176,45 +1180,6 @@ Missing character: There is no ú in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
 Missing character: There is no ù in font cmss10!
- [34
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ì in font cmss10!
- [35
-
-]
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
  [36
 
 ]
@@ -1223,31 +1188,7 @@ Missing character: There is no Ä in font cmss10!
 Missing character: There is no ô in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
-Missing character: There is no ô in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ú in font cmss10!
-Missing character: There is no ‚ in font cmss10!
-Missing character: There is no Ä in font cmss10!
-Missing character: There is no ù in font cmss10!
+Missing character: There is no ì in font cmss10!
  [37
 
 ]
@@ -1259,23 +1200,82 @@ Missing character: There is no Ä in font cmss10!
 Missing character: There is no ù in font cmss10!
 Missing character: There is no ‚ in font cmss10!
 Missing character: There is no Ä in font cmss10!
-Missing character: There is no ì in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
  [38
 
-] [39
+]
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ô in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+ [39
 
-] [40
+]
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ú in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ù in font cmss10!
+Missing character: There is no ‚ in font cmss10!
+Missing character: There is no Ä in font cmss10!
+Missing character: There is no ì in font cmss10!
+ [40
 
 ] [41
 
 ] [42
 
-]
-[43
+] [43
 
 ] [44
 
-] [45
+]
+[45
 
 ] [46
 
@@ -1287,6 +1287,10 @@ Missing character: There is no ì in font cmss10!
 
 ] [50
 
+] [51
+
+] [52
+
 ]
 \tf@nav=\write6
 \openout6 = `writingfiction.nav'.
@@ -1297,11 +1301,11 @@ Missing character: There is no ì in font cmss10!
 \tf@snm=\write8
 \openout8 = `writingfiction.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 779.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 779.
  (./writingfiction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 779.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 779.
 Package rerunfilecheck Info: File `writingfiction.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1309,16 +1313,16 @@ Package rerunfilecheck Info: File `writingfiction.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 751.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 779.
  ) 
 Here is how much of TeX's memory you used:
- 16868 strings out of 494977
- 319632 string characters out of 6180183
- 386361 words of memory out of 5000000
- 19580 multiletter control sequences out of 15000+600000
- 11096 words of font info for 40 fonts, out of 8000000 for 9000
+ 16875 strings out of 494977
+ 319706 string characters out of 6180183
+ 386401 words of memory out of 5000000
+ 19583 multiletter control sequences out of 15000+600000
+ 11390 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 56i,14n,55p,412b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,14n,55p,408b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
@@ -1326,10 +1330,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on writingfiction.pdf (50 pages, 3116555 bytes).
+Output written on writingfiction.pdf (52 pages, 3120234 bytes).
 PDF statistics:
- 1363 PDF objects out of 1440 (max. 8388607)
- 1262 compressed objects within 13 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 1415 PDF objects out of 1440 (max. 8388607)
+ 1311 compressed objects within 14 object streams
+ 105 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
